@@ -1,0 +1,29 @@
+.superInput {
+    border: midnightblue 3px solid;
+    background: #ffffff;
+    font-size: 17px;
+    border-radius: 6px;
+    width: 200px;
+    margin: 10px;
+}
+
+.errorInput {
+    border: #f02849 2px solid;
+    background: #ffffff;
+    font-size: 17px;
+    border-radius: 6px;
+    width: 200px;
+    margin: 10px;
+
+}
+
+.error {
+    color: #f02849;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    align-items: center;
+}
+
+.input:focus {
+    outline: none;
+}

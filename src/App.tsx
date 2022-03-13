@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Navbar} from "./Navbar/Navbar";
+import {Login} from "./Pages/Login";
+import {Route} from "react-router-dom";
+import {NewPassword} from "./Pages/NewPassword";
+import {PasswordRecovery} from "./Pages/PasswordRecovery";
+import {Profile} from "./Pages/Profile";
+import {Registration} from "./Pages/Registration";
+import {TestPage} from "./Pages/TestPage";
+import {Error404} from "./Pages/Error404";
+import {Routes} from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className='navbar'>
+                <Navbar/>
+            </div>
+            <Routes>
+                <Route path={'/login'} element={<Login/>} />
+                <Route path={'/newPassword'}element={<NewPassword/>}/>
+                <Route path={'/passwordRecovery'}element={<PasswordRecovery/>}/>
+                <Route path={'/'} element={<Profile/>}/>
+                <Route path={'/registration'} element={<Registration/>}/>
+                <Route path={'/testPage'} element={<TestPage/>}/>
+                <Route path={'/*'} element={<Error404/>}/>
+            </Routes>
+
+        </div>
+    );
 }
 
 export default App;
