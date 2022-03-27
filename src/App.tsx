@@ -24,7 +24,7 @@ function App() {
                 <Route path={'/'} element={<Profile/>}/>
                 <Route path={'/registration'} element={<Registration/>}/>
                 <Route path={'/testPage'} element={<TestPage/>}/>
-                <Route path={'/*'} element={<Error404/>}/>
+                <Route path={'*'} element={<Error404/>}/>
             </Routes>
 
         </div>
