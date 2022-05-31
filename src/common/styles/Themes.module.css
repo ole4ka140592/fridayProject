@@ -1,0 +1,15 @@
+.☽ {
+    background: linear-gradient(to bottom right, #022507, #07340b);
+}
+
+.☽-text {
+    color: #d0eca1;
+}
+
+.☀ {
+    background: linear-gradient(to bottom right, #d0eca1, #dff5bb);
+}
+
+.☀-text {
+    color: #022507;
+}

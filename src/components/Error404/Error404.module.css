@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: #077517;
+}
+
+.error {
+    font-size: 250px;
+}
+
+.text {
+    font-size: 120px;
+    margin: 0 0 30px 0;
+}
+
+.nav {
+    text-decoration: none;
+    color: #dc9700;
+}
+
+.textNav {
+    font-size: 40px;
+    margin: 0 0 30px 0;
+}
+
+.lastLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joke {
+    position: absolute;
+    transition: 0.1s;
+}
