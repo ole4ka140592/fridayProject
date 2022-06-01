@@ -56,9 +56,11 @@
 }
 
 @media screen and (max-width: 660px) {
-    .nav{
-        width: 95%;
+    .active{
+        min-width: 100%;
+        /*width: 100%;*/
         margin-left: 15px;
+        text-align: left;
     }
 }
 
