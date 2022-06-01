@@ -37,6 +37,7 @@
     .nav{
         width: 95%;
         text-align: left;
+        margin-left: 15px;
     }
 }
 
@@ -52,6 +53,13 @@
     color: #faec00;
     text-align: center;
     background: linear-gradient(to right, #077517, #4CAF50, #4CAF50, #4CAF50, #077517);
+}
+
+@media screen and (max-width: 660px) {
+    .nav{
+        width: 95%;
+        margin-left: 15px;
+    }
 }
 
 .text {
