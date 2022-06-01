@@ -19,3 +19,17 @@
     cursor: pointer;
     opacity: 1;
 }
+
+@media screen and (max-width: 660px) {
+    .scroll {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .scroll {
+        width: 16px;
+        height: 20px;
+    }
+}

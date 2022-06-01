@@ -6,7 +6,7 @@
     border: 5px #077517 solid;
     border-radius: 30px;
     box-shadow: 0 27px 27px 0 rgba(0,0,0,0.2), 0 27px 27px 0 rgba(0,0,0,0.19);
-    min-height: 80vh;
+    /*min-height: 80%;*/
 }
 
 .settings {
