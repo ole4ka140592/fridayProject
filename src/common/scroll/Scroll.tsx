@@ -22,7 +22,7 @@ export const Scroll = () => {
     return <>
         {show &&
         <SuperButton className={s.scroll} onClick={scrollFunction}>
-            🠑
+            &#8593;
         </SuperButton>}
     </>
 }
