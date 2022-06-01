@@ -1,6 +1,12 @@
 .main {
-    min-height: 300vh;
+    min-height: 115vh;
     /*width: 100%;*/
+}
+
+@media screen and (max-width: 660px) {
+    .main{
+        min-height: 125vh;
+    }
 }
 
 .appProgress {

@@ -33,6 +33,13 @@
     padding: 3px 0;
 }
 
+@media screen and (max-width: 660px) {
+    .nav{
+        width: 95%;
+        text-align: left;
+    }
+}
+
 .nav:hover {
     color: #faec00;
     background: linear-gradient(to right, #077517, #4CAF50, #4CAF50, #4CAF50, #077517);
