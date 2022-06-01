@@ -20,6 +20,9 @@ export const Scroll = () => {
     }, []);
 
     return <>
-        {show && <SuperButton className={s.scroll} onClick={scrollFunction}>⃤</SuperButton>}
+        {show &&
+        <SuperButton className={s.scroll} onClick={scrollFunction}>
+            🠑
+        </SuperButton>}
     </>
 }
